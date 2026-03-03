@@ -1,0 +1,167 @@
+# MDM Mapping Configuration — Client JSON → Syndigo Entity Structure
+#
+# Edit this file to onboard new client schemas without any code changes.
+# All rules are applied in order: simple → transformed → numbered_groups
+# → single_groups → derived_attributes → defaults → images.
+
+metadata:
+  default_source: "mkl"
+  default_locale: "de-DE"
+
+# ---------------------------------------------------------------------------
+# Channel / customer-level defaults
+# Values here are written to every output record. Change per deployment.
+# ---------------------------------------------------------------------------
+defaults:
+  suppliertype: "marketplace"
+  channel: "gkkMKL"
+  supplychaintype: "Kommission"
+  deliveryservice: "1"
+  minorderquantity: "1"
+  thingDataSource: "mkl"
+
+# ---------------------------------------------------------------------------
+# Simple 1-to-1 attribute mappings  (client data.* key → syndigo attribute)
+# Handles both scalar strings and arrays automatically.
+# ---------------------------------------------------------------------------
+simple_attributes:
+  genericbrand: genericbrand
+  genericcolor: genericcolor
+  genericstyle: genericstyle
+  genericseason: genericseason
+  genericneckline: genericneckline
+  fastenerposition: fastenerposition
+  genericfabrictype: genericfabrictype
+  genericsportsitem: genericsportsitem
+  genericarticletitle: genericarticletitle
+  genericsizeinformation: genericsizeinformation
+  genericmanufacturersize: genericmanufacturersize
+  genericmanufacturercolor: genericmanufacturercolor
+  genericsizewomensfashion: genericsizewomensfashion
+  genericarticledescription: genericarticledescription
+  genericmanufacturerstreet: genericmanufacturerstreet
+  gencharacteristicstextiles: gencharacteristicstextiles
+  genericcountryofproduction: genericcountryofproduction
+  genericcuttingformclothing: genericcuttingformclothing
+  genericgeneralcareinformation: genericgeneralcareinformation
+  genericmanufacturercompanyname: genericmanufacturercompanyname
+  genericmanufactureremailadress: genericmanufactureremailadress
+  genericmanufacturerzipcodeandlocation: genericmanufacturerzipcodeandlocation
+
+# ---------------------------------------------------------------------------
+# Value transforms — lookup tables applied before writing to output.
+# Add a new row to the lookup to handle a new input value without code change.
+# ---------------------------------------------------------------------------
+transformed_attributes:
+  steuerklassifikationartikel:
+    syndigo_key: steuerklassifikationartikel
+    lookup:
+      "1": "Voll (19%)"
+      "2": "Ermäßigt (7%)"
+      "0": "Steuerfrei (0%)"
+  nontextilepartsofanimalorigin:
+    syndigo_key: nontextilepartsofanimalorigin
+    lookup:
+      "nein": "False"
+      "ja": "True"
+      "no": "False"
+      "yes": "True"
+      "false": "False"
+      "true": "True"
+
+# ---------------------------------------------------------------------------
+# Numbered extension groups
+# Client fields named prefix01, prefix02, … are collapsed into a Syndigo
+# group[] where each numbered index becomes one group entry.
+# Fields sharing the same index number land in the same group entry.
+# ---------------------------------------------------------------------------
+numbered_groups:
+  - syndigo_parent: genericnoticeablefeatures
+    fields:
+      - client_pattern: "noticeablefeaturetext{n}"
+        syndigo_sub_key: noticeablefeaturetext
+
+  - syndigo_parent: genericmaterialfashion
+    fields:
+      - client_pattern: "materialfashionmaterial{n}"
+        syndigo_sub_key: materialfashionmaterial
+      - client_pattern: "materialfashionparts{n}"
+        syndigo_sub_key: materialfashionparts
+    # Default sub-attribute values when the client does not supply them
+    defaults:
+      materialfashionlocation: "Gesamt"
+
+# ---------------------------------------------------------------------------
+# Single groups
+# Multiple flat client keys that collapse into one Syndigo group[] entry.
+# Map: client_key → syndigo_sub_key within the group entry.
+# ---------------------------------------------------------------------------
+single_groups:
+  - syndigo_parent: genericcarelabeltextile
+    fields:
+      carelabeltextileironing: carelabeltextileironing
+      carelabeltextilewashing: carelabeltextilewashing
+      carelabeltextiledrycleaning: carelabeltextiledrycleaning
+      carelabeltextiledrying: carelabeltextiledrying
+      carelabeltextilebleaching: carelabeltextilebleaching
+
+  - syndigo_parent: generictargetgroup
+    fields:
+      targetgroupgeneral: targetgroupgeneral
+
+# ---------------------------------------------------------------------------
+# Derived attributes
+# Resolved from the client record structure (outside data.*) or via templates.
+# source_path uses dot-notation; list indices are plain integers (sources.0.x).
+# Transforms: date_only | first_from_array | processing_timestamp
+# ---------------------------------------------------------------------------
+derived_attributes:
+  gtin:
+    source_path: "data.gtin"
+    extract: first_from_array
+  galmklid:
+    source_path: "data.productnr"
+  miraklshop:
+    source_path: "sources.0.provider_code"
+  artikelnummerbeimlieferanten:
+    source_path: "sources.0.provider_sku"
+  supplychainid:
+    source_path: "sources.0.provider_sku"
+  galeriataxonomy:
+    source_path: "data.productcategory"
+  datumgueltigab:
+    source_path: "creation_date"
+    transform: date_only
+  # Templates are resolved after all source_path entries are resolved.
+  sysmdmid:
+    template: "mirakl-{miraklshop}-{gtin}"
+  sysmdmname:
+    template: "mirakl {miraklshop} {gtin}"
+  # Processing-time timestamps — set to current ISO timestamp at run time.
+  sourcecomment:
+    transform: processing_timestamp
+  triggersupplierinformation:
+    transform: processing_timestamp
+
+# ---------------------------------------------------------------------------
+# System fields that cannot be derived from client data and are intentionally
+# omitted from output. Reported in _mapping_report.system_fields_omitted.
+# ---------------------------------------------------------------------------
+system_fields_omitted:
+  - thingRunPath
+
+# ---------------------------------------------------------------------------
+# Image entity configuration
+# Client image fields (image01..imageN) each produce a separate Syndigo
+# entity of type "image".  Defaults are written to every image entity.
+# ---------------------------------------------------------------------------
+images:
+  client_pattern: "image{n}"
+  main_image_number: "01"
+  media_type_main: "MainImage"
+  media_type_additional: "AdditionalImage"
+  url_field: "source"
+  defaults:
+    damchannel: "Mirakl"
+    damresolutionkey: "ORGINAL"
+    damcontenttype: "image/jpeg"

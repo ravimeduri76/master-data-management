@@ -1,0 +1,1674 @@
+{
+  "entities": [
+    {
+      "entity": {
+        "properties": {
+          "src": "mkl"
+        },
+        "id": "mirakl-4205-4063749440304",
+        "type": "requestitem",
+        "name": "mirakl-4205-4063749440304",
+        "data": {
+          "attributes": {
+            "genericbrand": {
+              "values": [
+                {
+                  "value": "Olsen",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericcolor": {
+              "values": [
+                {
+                  "value": "rosa",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericstyle": {
+              "values": [
+                {
+                  "value": "Casual",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericseason": {
+              "values": [
+                {
+                  "value": "Herbst",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                },
+                {
+                  "value": "Winter",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericneckline": {
+              "values": [
+                {
+                  "value": "Rundhals-Ausschnitt",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "fastenerposition": {
+              "values": [
+                {
+                  "value": "Vorne",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericfabrictype": {
+              "values": [
+                {
+                  "value": "Strick",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericsportsitem": {
+              "values": [
+                {
+                  "value": "Kein Sportartikel",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericarticletitle": {
+              "values": [
+                {
+                  "value": "Pullover mit Rundhalsausschnitt",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericsizeinformation": {
+              "values": [
+                {
+                  "value": "Artikel fällt normal aus",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "sv-SE"
+                }
+              ]
+            },
+            "genericmanufacturersize": {
+              "values": [
+                {
+                  "value": "40",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericmanufacturercolor": {
+              "values": [
+                {
+                  "value": "Vintage Pink Melange",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "af-AF"
+                }
+              ]
+            },
+            "genericsizewomensfashion": {
+              "values": [
+                {
+                  "value": "Normale Größe EU 40",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericarticledescription": {
+              "values": [
+                {
+                  "value": "Erleben Sie den Komfort dieses Pullovers mit Rundhalsausschnitt und langen Ärmeln, geschnitten in der geraden Olsen-Passform „Henny“. Der hochwertige Materialmix aus Viskose, Polyester und Polyamid sorgt für ein angenehmes Tragegefühl, Strapazierfähigkeit und Formbeständigkeit – Ihr idealer Begleiter für stilvolle und gemütliche Momente. Bonus: Dieser Style enthält LENZING™ ECOVERO™ Viskose, die aus kontrollierten Holzquellen gewonnen wird. LENZING™ und ECOVERO™ sind Marken der Lenzing AG. Länge ca. 58 cm.",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericmanufacturerstreet": {
+              "values": [
+                {
+                  "value": "Friesenweg 28",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "gencharacteristicstextiles": {
+              "values": [
+                {
+                  "value": "Wärmend",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericcountryofproduction": {
+              "values": [
+                {
+                  "value": "Deutschland",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericcuttingformclothing": {
+              "values": [
+                {
+                  "value": "Gerader Schnitt",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericgeneralcareinformation": {
+              "values": [
+                {
+                  "value": "30° C Spezialschonwaschgang, Nicht bleichen , Nicht heiß bügeln (110° C ), Chemische Reinigung, schonender Prozess, Nicht im Wäschetrockner trocknen",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericmanufacturercompanyname": {
+              "values": [
+                {
+                  "value": "Olsen Germany GmbH",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericmanufactureremailadress": {
+              "values": [
+                {
+                  "value": "info@olsen.de",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericmanufacturerzipcodeandlocation": {
+              "values": [
+                {
+                  "value": "22763 Hamburg",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "steuerklassifikationartikel": {
+              "values": [
+                {
+                  "value": "Voll (19%)",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "nontextilepartsofanimalorigin": {
+              "values": [
+                {
+                  "value": "False",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "genericnoticeablefeatures": {
+              "group": [
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "noticeablefeaturetext": {
+                    "values": [
+                      {
+                        "value": "Geschnitten in der geraden Olsen-Passform „Henny\"",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "noticeablefeaturetext": {
+                    "values": [
+                      {
+                        "value": "Klassischer Rundhalsausschnitt für zeitlosen Stil",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "noticeablefeaturetext": {
+                    "values": [
+                      {
+                        "value": "Lange Ärmel mit schlichten Abschlüssen",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "noticeablefeaturetext": {
+                    "values": [
+                      {
+                        "value": "Softer, pflegeleichter Viskosemix mit Polyester und Polyamid",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "noticeablefeaturetext": {
+                    "values": [
+                      {
+                        "value": "Ideal kombinierbar zu Jeans, Röcken oder Business-Outfits",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "genericmaterialfashion": {
+              "group": [
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "materialfashionmaterial": {
+                    "values": [
+                      {
+                        "value": "Viskose",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "materialfashionparts": {
+                    "values": [
+                      {
+                        "value": "52",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "materialfashionlocation": {
+                    "values": [
+                      {
+                        "value": "Gesamt",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "materialfashionmaterial": {
+                    "values": [
+                      {
+                        "value": "Polyester",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "materialfashionparts": {
+                    "values": [
+                      {
+                        "value": "28",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "materialfashionlocation": {
+                    "values": [
+                      {
+                        "value": "Gesamt",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "materialfashionmaterial": {
+                    "values": [
+                      {
+                        "value": "Polyamid",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "materialfashionparts": {
+                    "values": [
+                      {
+                        "value": "20",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "materialfashionlocation": {
+                    "values": [
+                      {
+                        "value": "Gesamt",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "genericcarelabeltextile": {
+              "group": [
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "carelabeltextileironing": {
+                    "values": [
+                      {
+                        "value": "Nicht heiß bügeln",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "carelabeltextilewashing": {
+                    "values": [
+                      {
+                        "value": "Schonwaschgang 30° C",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "carelabeltextiledrycleaning": {
+                    "values": [
+                      {
+                        "value": "Schonend reinigen mit Perchlorethylen",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "carelabeltextiledrying": {
+                    "values": [
+                      {
+                        "value": "Nicht im Wäschetrockner trocknen",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  },
+                  "carelabeltextilebleaching": {
+                    "values": [
+                      {
+                        "value": "Nicht bleichen",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "generictargetgroup": {
+              "group": [
+                {
+                  "locale": "de-DE",
+                  "source": "mkl",
+                  "targetgroupgeneral": {
+                    "values": [
+                      {
+                        "value": "Damen",
+                        "source": "mkl",
+                        "src": "mkl",
+                        "locale": "de-DE"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "gtin": {
+              "values": [
+                {
+                  "value": "4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "galmklid": {
+              "values": [
+                {
+                  "value": "b6346658-66c5-4adb-89a6-daad73e05cab",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "miraklshop": {
+              "values": [
+                {
+                  "value": "4205",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "artikelnummerbeimlieferanten": {
+              "values": [
+                {
+                  "value": "11000585_21253_40",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "supplychainid": {
+              "values": [
+                {
+                  "value": "11000585_21253_40",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "galeriataxonomy": {
+              "values": [
+                {
+                  "value": "womenspullovers",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "datumgueltigab": {
+              "values": [
+                {
+                  "value": "2026-01-07",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sourcecomment": {
+              "values": [
+                {
+                  "value": "2026-03-03T16:02:01.502313+00:00",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "triggersupplierinformation": {
+              "values": [
+                {
+                  "value": "2026-03-03T16:02:01.502328+00:00",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmid": {
+              "values": [
+                {
+                  "value": "mirakl-4205-4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmname": {
+              "values": [
+                {
+                  "value": "mirakl 4205 4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "suppliertype": {
+              "values": [
+                {
+                  "value": "marketplace",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "channel": {
+              "values": [
+                {
+                  "value": "gkkMKL",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "supplychaintype": {
+              "values": [
+                {
+                  "value": "Kommission",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "deliveryservice": {
+              "values": [
+                {
+                  "value": "1",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "minorderquantity": {
+              "values": [
+                {
+                  "value": "1",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "thingDataSource": {
+              "values": [
+                {
+                  "value": "mkl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            }
+          },
+          "contexts": []
+        }
+      }
+    },
+    {
+      "entity": {
+        "properties": {
+          "src": "mkl"
+        },
+        "id": "e529be824bdbdd9c50a22666ac9909e3",
+        "type": "image",
+        "name": "e529be824bdbdd9c50a22666ac9909e3",
+        "data": {
+          "attributes": {
+            "dammediaid": {
+              "values": [
+                {
+                  "value": "01",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "dammediatype": {
+              "values": [
+                {
+                  "value": "MainImage",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "productnr": {
+              "values": [
+                {
+                  "value": "b6346658-66c5-4adb-89a6-daad73e05cab",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damgtin": {
+              "values": [
+                {
+                  "value": "4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damsourceurl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/136ef6aeaecb48c0ba07fd99706508a8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetOriginalAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/136ef6aeaecb48c0ba07fd99706508a8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetPreviewAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/136ef6aeaecb48c0ba07fd99706508a8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchannel": {
+              "values": [
+                {
+                  "value": "Mirakl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damresolutionkey": {
+              "values": [
+                {
+                  "value": "ORGINAL",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damcontenttype": {
+              "values": [
+                {
+                  "value": "image/jpeg",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchecksum": {
+              "values": [
+                {
+                  "value": "e529be824bdbdd9c50a22666ac9909e3",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmid": {
+              "values": [
+                {
+                  "value": "e529be824bdbdd9c50a22666ac9909e3",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmname": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/136ef6aeaecb48c0ba07fd99706508a8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "thingDataSource": {
+              "values": [
+                {
+                  "value": "mkl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            }
+          },
+          "contexts": []
+        }
+      }
+    },
+    {
+      "entity": {
+        "properties": {
+          "src": "mkl"
+        },
+        "id": "d8edd7a39c6e387c3c7e43d86431138f",
+        "type": "image",
+        "name": "d8edd7a39c6e387c3c7e43d86431138f",
+        "data": {
+          "attributes": {
+            "dammediaid": {
+              "values": [
+                {
+                  "value": "02",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "dammediatype": {
+              "values": [
+                {
+                  "value": "AdditionalImage",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "productnr": {
+              "values": [
+                {
+                  "value": "b6346658-66c5-4adb-89a6-daad73e05cab",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damgtin": {
+              "values": [
+                {
+                  "value": "4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damsourceurl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/c40311e1589842d0994f6f57923021bc",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetOriginalAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/c40311e1589842d0994f6f57923021bc",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetPreviewAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/c40311e1589842d0994f6f57923021bc",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchannel": {
+              "values": [
+                {
+                  "value": "Mirakl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damresolutionkey": {
+              "values": [
+                {
+                  "value": "ORGINAL",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damcontenttype": {
+              "values": [
+                {
+                  "value": "image/jpeg",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchecksum": {
+              "values": [
+                {
+                  "value": "d8edd7a39c6e387c3c7e43d86431138f",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmid": {
+              "values": [
+                {
+                  "value": "d8edd7a39c6e387c3c7e43d86431138f",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmname": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/c40311e1589842d0994f6f57923021bc",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "thingDataSource": {
+              "values": [
+                {
+                  "value": "mkl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            }
+          },
+          "contexts": []
+        }
+      }
+    },
+    {
+      "entity": {
+        "properties": {
+          "src": "mkl"
+        },
+        "id": "a65c803b2ed0c89541c715f365bf9508",
+        "type": "image",
+        "name": "a65c803b2ed0c89541c715f365bf9508",
+        "data": {
+          "attributes": {
+            "dammediaid": {
+              "values": [
+                {
+                  "value": "03",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "dammediatype": {
+              "values": [
+                {
+                  "value": "AdditionalImage",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "productnr": {
+              "values": [
+                {
+                  "value": "b6346658-66c5-4adb-89a6-daad73e05cab",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damgtin": {
+              "values": [
+                {
+                  "value": "4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damsourceurl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/adf8ea4d45d5497fbb5283a9a70678f8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetOriginalAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/adf8ea4d45d5497fbb5283a9a70678f8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetPreviewAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/adf8ea4d45d5497fbb5283a9a70678f8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchannel": {
+              "values": [
+                {
+                  "value": "Mirakl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damresolutionkey": {
+              "values": [
+                {
+                  "value": "ORGINAL",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damcontenttype": {
+              "values": [
+                {
+                  "value": "image/jpeg",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchecksum": {
+              "values": [
+                {
+                  "value": "a65c803b2ed0c89541c715f365bf9508",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmid": {
+              "values": [
+                {
+                  "value": "a65c803b2ed0c89541c715f365bf9508",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmname": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/adf8ea4d45d5497fbb5283a9a70678f8",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "thingDataSource": {
+              "values": [
+                {
+                  "value": "mkl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            }
+          },
+          "contexts": []
+        }
+      }
+    },
+    {
+      "entity": {
+        "properties": {
+          "src": "mkl"
+        },
+        "id": "3fa44478860a0f5c29fa484f9c7998fe",
+        "type": "image",
+        "name": "3fa44478860a0f5c29fa484f9c7998fe",
+        "data": {
+          "attributes": {
+            "dammediaid": {
+              "values": [
+                {
+                  "value": "04",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "dammediatype": {
+              "values": [
+                {
+                  "value": "AdditionalImage",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "productnr": {
+              "values": [
+                {
+                  "value": "b6346658-66c5-4adb-89a6-daad73e05cab",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damgtin": {
+              "values": [
+                {
+                  "value": "4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damsourceurl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/0996b92644004fecb70f9de5857e969f",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetOriginalAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/0996b92644004fecb70f9de5857e969f",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetPreviewAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/0996b92644004fecb70f9de5857e969f",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchannel": {
+              "values": [
+                {
+                  "value": "Mirakl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damresolutionkey": {
+              "values": [
+                {
+                  "value": "ORGINAL",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damcontenttype": {
+              "values": [
+                {
+                  "value": "image/jpeg",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchecksum": {
+              "values": [
+                {
+                  "value": "3fa44478860a0f5c29fa484f9c7998fe",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmid": {
+              "values": [
+                {
+                  "value": "3fa44478860a0f5c29fa484f9c7998fe",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmname": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/0996b92644004fecb70f9de5857e969f",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "thingDataSource": {
+              "values": [
+                {
+                  "value": "mkl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            }
+          },
+          "contexts": []
+        }
+      }
+    },
+    {
+      "entity": {
+        "properties": {
+          "src": "mkl"
+        },
+        "id": "7ad9647c4726d17ba47b02f450356835",
+        "type": "image",
+        "name": "7ad9647c4726d17ba47b02f450356835",
+        "data": {
+          "attributes": {
+            "dammediaid": {
+              "values": [
+                {
+                  "value": "05",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "dammediatype": {
+              "values": [
+                {
+                  "value": "AdditionalImage",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "productnr": {
+              "values": [
+                {
+                  "value": "b6346658-66c5-4adb-89a6-daad73e05cab",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damgtin": {
+              "values": [
+                {
+                  "value": "4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damsourceurl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/482cdf5713f74a0da8642c9f97f79c17",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetOriginalAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/482cdf5713f74a0da8642c9f97f79c17",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetPreviewAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/482cdf5713f74a0da8642c9f97f79c17",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchannel": {
+              "values": [
+                {
+                  "value": "Mirakl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damresolutionkey": {
+              "values": [
+                {
+                  "value": "ORGINAL",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damcontenttype": {
+              "values": [
+                {
+                  "value": "image/jpeg",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchecksum": {
+              "values": [
+                {
+                  "value": "7ad9647c4726d17ba47b02f450356835",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmid": {
+              "values": [
+                {
+                  "value": "7ad9647c4726d17ba47b02f450356835",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmname": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/482cdf5713f74a0da8642c9f97f79c17",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "thingDataSource": {
+              "values": [
+                {
+                  "value": "mkl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            }
+          },
+          "contexts": []
+        }
+      }
+    },
+    {
+      "entity": {
+        "properties": {
+          "src": "mkl"
+        },
+        "id": "504227028950300a89dca32497288b76",
+        "type": "image",
+        "name": "504227028950300a89dca32497288b76",
+        "data": {
+          "attributes": {
+            "dammediaid": {
+              "values": [
+                {
+                  "value": "06",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "dammediatype": {
+              "values": [
+                {
+                  "value": "AdditionalImage",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "productnr": {
+              "values": [
+                {
+                  "value": "b6346658-66c5-4adb-89a6-daad73e05cab",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damgtin": {
+              "values": [
+                {
+                  "value": "4063749440304",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damsourceurl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/07eed58e890a4ba792003dff4a79f7c7",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetOriginalAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/07eed58e890a4ba792003dff4a79f7c7",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "rsInternalDigitalAssetPreviewAssetUrl": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/07eed58e890a4ba792003dff4a79f7c7",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchannel": {
+              "values": [
+                {
+                  "value": "Mirakl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damresolutionkey": {
+              "values": [
+                {
+                  "value": "ORGINAL",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damcontenttype": {
+              "values": [
+                {
+                  "value": "image/jpeg",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "damchecksum": {
+              "values": [
+                {
+                  "value": "504227028950300a89dca32497288b76",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmid": {
+              "values": [
+                {
+                  "value": "504227028950300a89dca32497288b76",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "sysmdmname": {
+              "values": [
+                {
+                  "value": "https://media-prod-eu-1.mirakl.net/SOURCE/07eed58e890a4ba792003dff4a79f7c7",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            },
+            "thingDataSource": {
+              "values": [
+                {
+                  "value": "mkl",
+                  "source": "mkl",
+                  "src": "mkl",
+                  "locale": "de-DE"
+                }
+              ]
+            }
+          },
+          "contexts": []
+        }
+      }
+    }
+  ],
+  "_mapping_report": {
+    "total_input_records": 1,
+    "total_output_entities": 7,
+    "validation_issues": [],
+    "per_record": [
+      {
+        "record_index": 0,
+        "unmapped_client_keys": [],
+        "system_fields_omitted": [
+          "thingRunPath"
+        ],
+        "language_detection_warnings": [
+          "Language detection unreliable for short value 'Olsen' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'rosa' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Casual' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Herbst' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Winter' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Rundhals-Ausschnitt' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Vorne' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Strick' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Kein Sportartikel' — using default locale 'de-DE'",
+          "Language detection unreliable for short value '40' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Normale Größe EU 40' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Friesenweg 28' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Wärmend' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Deutschland' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Gerader Schnitt' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Olsen Germany GmbH' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'info@olsen.de' — using default locale 'de-DE'",
+          "Language detection unreliable for short value '22763 Hamburg' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Viskose' — using default locale 'de-DE'",
+          "Language detection unreliable for short value '52' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Polyester' — using default locale 'de-DE'",
+          "Language detection unreliable for short value '28' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Polyamid' — using default locale 'de-DE'",
+          "Language detection unreliable for short value '20' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Nicht heiß bügeln' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Nicht bleichen' — using default locale 'de-DE'",
+          "Language detection unreliable for short value 'Damen' — using default locale 'de-DE'"
+        ],
+        "transform_warnings": [],
+        "derived_warnings": [],
+        "image_warnings": [
+          "image01.original_url: no Syndigo target — not included in output",
+          "image02.original_url: no Syndigo target — not included in output",
+          "image03.original_url: no Syndigo target — not included in output",
+          "image04.original_url: no Syndigo target — not included in output",
+          "image05.original_url: no Syndigo target — not included in output",
+          "image06.original_url: no Syndigo target — not included in output"
+        ]
+      }
+    ]
+  }
+}
