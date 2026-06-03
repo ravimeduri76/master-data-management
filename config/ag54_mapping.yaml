@@ -1,0 +1,107 @@
+mapping:
+  ukey: map.global.mkl.client_product.thing_product
+  version: 0.1.0
+  scope: global
+  tenant_ukey: null
+  canonical:
+    entity: canonical.thing.product
+    version: 1.0.0
+  source:
+    system: mkl
+    object: client_product
+  authored_by: convert_to_ag54_mapping.py
+  description: 'Auto-converted subset of master-data-management/config/mapping_config.yaml
+    for AG54 replay. Covers simple_attributes + transformed_attributes (lookup). Out-of-scope
+    sections remain handled by the legacy MDM pipeline: numbered_groups, single_groups,
+    derived_attributes, defaults, images.'
+  cardinality: one_to_one
+  direction: forward_only
+  field_mappings:
+  - canonical_path: fastenerposition
+    source_path: fastenerposition
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: gencharacteristicstextiles
+    source_path: gencharacteristicstextiles
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericarticledescription
+    source_path: genericarticledescription
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericarticletitle
+    source_path: genericarticletitle
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericbrand
+    source_path: genericbrand
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericcolor
+    source_path: genericcolor
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericcountryofproduction
+    source_path: genericcountryofproduction
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericcuttingformclothing
+    source_path: genericcuttingformclothing
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericfabrictype
+    source_path: genericfabrictype
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericgeneralcareinformation
+    source_path: genericgeneralcareinformation
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericmanufacturercolor
+    source_path: genericmanufacturercolor
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericmanufacturercompanyname
+    source_path: genericmanufacturercompanyname
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericmanufactureremailadress
+    source_path: genericmanufactureremailadress
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericmanufacturersize
+    source_path: genericmanufacturersize
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericmanufacturerstreet
+    source_path: genericmanufacturerstreet
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericmanufacturerzipcodeandlocation
+    source_path: genericmanufacturerzipcodeandlocation
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericneckline
+    source_path: genericneckline
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericseason
+    source_path: genericseason
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericsizeinformation
+    source_path: genericsizeinformation
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericsizewomensfashion
+    source_path: genericsizewomensfashion
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericsportsitem
+    source_path: genericsportsitem
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: genericstyle
+    source_path: genericstyle
+    notes: Auto-converted by convert_to_ag54_mapping.py from mapping_config.yaml::simple_attributes
+  - canonical_path: nontextilepartsofanimalorigin
+    source_path: nontextilepartsofanimalorigin
+    transform: lookup:nontextilepartsofanimalorigin_lookup
+    notes: 'Auto-converted from mapping_config.yaml::transformed_attributes. Lookup
+      table written alongside in the lookup_tables: block.'
+  - canonical_path: steuerklassifikationartikel
+    source_path: steuerklassifikationartikel
+    transform: lookup:steuerklassifikationartikel_lookup
+    notes: 'Auto-converted from mapping_config.yaml::transformed_attributes. Lookup
+      table written alongside in the lookup_tables: block.'
+  lookup_tables:
+    nontextilepartsofanimalorigin_lookup:
+      nein: 'False'
+      ja: 'True'
+      'no': 'False'
+      'yes': 'True'
+      'false': 'False'
+      'true': 'True'
+    steuerklassifikationartikel_lookup:
+      '1': Voll (19%)
+      '2': Ermäßigt (7%)
+      '0': Steuerfrei (0%)
